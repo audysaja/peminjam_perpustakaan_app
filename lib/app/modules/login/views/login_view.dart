@@ -48,7 +48,7 @@ class LoginView extends GetView<LoginController> {
                 ElevatedButton(
                   onPressed: () {
                     // Pindah ke halaman pendaftaran (register)
-                    Get.toNamed(Routes.REGISTER); // Gunakan Routes.REGISTER sesuai dengan konfigurasi rute Anda
+                    Get.toNamed(Routes.REGISTER);
                   },
                   child: Text("Register"),
                 ),
